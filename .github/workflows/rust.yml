@@ -23,5 +23,5 @@ jobs:
     - name: Upload
       uses: actions/upload-artifact@v3
       with:
-        name: target
-        path: target
+        name: build
+        path: target/debug/demo-rust
